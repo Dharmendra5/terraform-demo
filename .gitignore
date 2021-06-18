@@ -1,0 +1,6 @@
+# tf local directories
+.terraform/
+
+#tf state files
+*.tfstate
+*.tfstate.backup
