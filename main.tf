@@ -1,9 +1,5 @@
 #resources and data sources
-provider "aws" {
-    access_key = "AKIAVH7DSWIVKN7PA4VA"
-    secret_key = "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"
-     region     = "ap-south-1"
-}
+
 
 # creating a new vpc
    resource "aws_vpc" "development-vpc"{
